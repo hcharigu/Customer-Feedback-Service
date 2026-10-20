@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Customer Feedback Service</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+    <header class="site-header">
+      <nav aria-label="Navegación principal">
+        <a href="/" data-route="/">Enviar feedback</a>
+        <a href="/admin" data-route="/admin">Revisar feedback</a>
+      </nav>
+    </header>
+
+    <main id="main-content" class="content">
+      <section id="feedback-page">
+        <h1>Enviar feedback</h1>
+        <p>Comparte un comentario sobre tu experiencia.</p>
+
+        <form id="feedback-form" novalidate>
+          <div class="field">
+            <label for="message">Comentario</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="7"
+              maxlength="2000"
+              aria-describedby="message-help message-error"
+            ></textarea>
+            <p id="message-help" class="help-text">Máximo 2000 caracteres.</p>
+            <p id="message-error" class="field-error" hidden></p>
+          </div>
+          <button id="submit-button" type="submit">Enviar feedback</button>
+        </form>
+        <div id="form-status" class="status" aria-live="polite"></div>
+      </section>
+
+      <section id="review-page" hidden>
+        <h1>Revisar feedback</h1>
+        <div id="review-status" class="status" aria-live="polite"></div>
+        <button id="retry-button" type="button" hidden>Reintentar</button>
+        <ul
+          id="feedback-list"
+          class="feedback-list"
+          aria-label="Entradas de feedback"
+        ></ul>
+      </section>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

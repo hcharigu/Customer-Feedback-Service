@@ -1,0 +1,125 @@
+{
+  "project_root": ".",
+  "contract_version": 2,
+  "status": "structural_only",
+  "runner": "structural",
+  "checks": [
+    {
+      "name": "project-layout",
+      "command": [],
+      "status": "passed",
+      "exit_code": 0,
+      "output": "7 ruta(s) emitida(s) por más de una fase con contenido distinto; se conservó la versión de la fase más reciente según el orden del workflow: backend/e2e/feedback.spec.js, backend/package.json, backend/public/feedback-client.js, backend/public/index.html, backend/src/app.js, backend/tests/feedback-client.test.js, backend/tests/feedback.test.js.",
+      "duration_ms": 0,
+      "timeout_seconds": null,
+      "timed_out": false
+    },
+    {
+      "name": "node-build-contract:backend",
+      "command": [
+        "<validated-structural>",
+        "script build declarado"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "output": "script build declarado",
+      "duration_ms": 0,
+      "timeout_seconds": null,
+      "timed_out": false
+    },
+    {
+      "name": "node-test-contract:backend",
+      "command": [
+        "<validated-structural>",
+        "script test declarado"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "output": "script test declarado",
+      "duration_ms": 0,
+      "timeout_seconds": null,
+      "timed_out": false
+    },
+    {
+      "name": "node-smoke-contract:backend",
+      "command": [
+        "<validated-structural>",
+        "script test:e2e declarado"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "output": "script test:e2e declarado",
+      "duration_ms": 0,
+      "timeout_seconds": null,
+      "timed_out": false
+    },
+    {
+      "name": "node-build-contract:.",
+      "command": [
+        "<validated-structural>",
+        "script build declarado"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "output": "script build declarado",
+      "duration_ms": 0,
+      "timeout_seconds": null,
+      "timed_out": false
+    },
+    {
+      "name": "node-test-contract:.",
+      "command": [
+        "<validated-structural>",
+        "script test declarado"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "output": "script test declarado",
+      "duration_ms": 0,
+      "timeout_seconds": null,
+      "timed_out": false
+    },
+    {
+      "name": "node-smoke-contract:.",
+      "command": [
+        "<validated-structural>",
+        "script test:e2e declarado"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "output": "script test:e2e declarado",
+      "duration_ms": 0,
+      "timeout_seconds": null,
+      "timed_out": false
+    },
+    {
+      "name": "web-project-structure",
+      "command": [
+        "<validated-structural>",
+        "4 fuentes web"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "output": "4 fuentes web",
+      "duration_ms": 0,
+      "timeout_seconds": null,
+      "timed_out": false
+    },
+    {
+      "name": "declared-gaps",
+      "command": [
+        "<validated-structural>",
+        "sin marcadores [NEEDS CLARIFICATION] en el código entregado"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "output": "sin marcadores [NEEDS CLARIFICATION] en el código entregado",
+      "duration_ms": 0,
+      "timeout_seconds": null,
+      "timed_out": false
+    }
+  ],
+  "project_files": 60,
+  "degraded_because": "el modo de verificación configurado es structural (TRANSICION_VERIFICATION_MODE)",
+  "message": "9 comprobaciones estructurales superadas y 0 comprobación(es) omitida(s); el toolchain del stack no se ejecutó: el modo de verificación configurado es structural (TRANSICION_VERIFICATION_MODE). Ninguna comprobación falló: no se pudo comprobar."
+}

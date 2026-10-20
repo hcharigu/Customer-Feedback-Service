@@ -1,0 +1,1023 @@
+{
+  "mission_id": "m-acb7001c5d",
+  "mission_status": "completed",
+  "mission_error": null,
+  "quality_status": "unverified_environment",
+  "quality_score": 0,
+  "catalog_commit": null,
+  "workflow_id": "delivery-fullstack",
+  "delivery_complete": true,
+  "functional_build_proven": false,
+  "verification": {
+    "project_root": ".",
+    "contract_version": 2,
+    "status": "structural_only",
+    "runner": "structural",
+    "checks": [
+      {
+        "name": "project-layout",
+        "command": [],
+        "status": "passed",
+        "exit_code": 0,
+        "output": "7 ruta(s) emitida(s) por más de una fase con contenido distinto; se conservó la versión de la fase más reciente según el orden del workflow: backend/e2e/feedback.spec.js, backend/package.json, backend/public/feedback-client.js, backend/public/index.html, backend/src/app.js, backend/tests/feedback-client.test.js, backend/tests/feedback.test.js.",
+        "duration_ms": 0,
+        "timeout_seconds": null,
+        "timed_out": false
+      },
+      {
+        "name": "node-build-contract:backend",
+        "command": [
+          "<validated-structural>",
+          "script build declarado"
+        ],
+        "status": "passed",
+        "exit_code": 0,
+        "output": "script build declarado",
+        "duration_ms": 0,
+        "timeout_seconds": null,
+        "timed_out": false
+      },
+      {
+        "name": "node-test-contract:backend",
+        "command": [
+          "<validated-structural>",
+          "script test declarado"
+        ],
+        "status": "passed",
+        "exit_code": 0,
+        "output": "script test declarado",
+        "duration_ms": 0,
+        "timeout_seconds": null,
+        "timed_out": false
+      },
+      {
+        "name": "node-smoke-contract:backend",
+        "command": [
+          "<validated-structural>",
+          "script test:e2e declarado"
+        ],
+        "status": "passed",
+        "exit_code": 0,
+        "output": "script test:e2e declarado",
+        "duration_ms": 0,
+        "timeout_seconds": null,
+        "timed_out": false
+      },
+      {
+        "name": "node-build-contract:.",
+        "command": [
+          "<validated-structural>",
+          "script build declarado"
+        ],
+        "status": "passed",
+        "exit_code": 0,
+        "output": "script build declarado",
+        "duration_ms": 0,
+        "timeout_seconds": null,
+        "timed_out": false
+      },
+      {
+        "name": "node-test-contract:.",
+        "command": [
+          "<validated-structural>",
+          "script test declarado"
+        ],
+        "status": "passed",
+        "exit_code": 0,
+        "output": "script test declarado",
+        "duration_ms": 0,
+        "timeout_seconds": null,
+        "timed_out": false
+      },
+      {
+        "name": "node-smoke-contract:.",
+        "command": [
+          "<validated-structural>",
+          "script test:e2e declarado"
+        ],
+        "status": "passed",
+        "exit_code": 0,
+        "output": "script test:e2e declarado",
+        "duration_ms": 0,
+        "timeout_seconds": null,
+        "timed_out": false
+      },
+      {
+        "name": "web-project-structure",
+        "command": [
+          "<validated-structural>",
+          "4 fuentes web"
+        ],
+        "status": "passed",
+        "exit_code": 0,
+        "output": "4 fuentes web",
+        "duration_ms": 0,
+        "timeout_seconds": null,
+        "timed_out": false
+      },
+      {
+        "name": "declared-gaps",
+        "command": [
+          "<validated-structural>",
+          "sin marcadores [NEEDS CLARIFICATION] en el código entregado"
+        ],
+        "status": "passed",
+        "exit_code": 0,
+        "output": "sin marcadores [NEEDS CLARIFICATION] en el código entregado",
+        "duration_ms": 0,
+        "timeout_seconds": null,
+        "timed_out": false
+      }
+    ],
+    "project_files": 60,
+    "degraded_because": "el modo de verificación configurado es structural (TRANSICION_VERIFICATION_MODE)",
+    "message": "9 comprobaciones estructurales superadas y 0 comprobación(es) omitida(s); el toolchain del stack no se ejecutó: el modo de verificación configurado es structural (TRANSICION_VERIFICATION_MODE). Ninguna comprobación falló: no se pudo comprobar."
+  },
+  "artifact_lineage": [],
+  "phases": [
+    {
+      "id": "analisis",
+      "title": "Análisis fullstack",
+      "artifacts": [
+        "analisis.md"
+      ],
+      "requires_code": false,
+      "code_scope": null,
+      "canonical_role": "analysis",
+      "core_runtime": false,
+      "agent": "agent-analisis-desarrollo",
+      "github_agent": "agent-analisis-desarrollo",
+      "depends_on": [],
+      "declared_skills": [
+        "requirements/requirements-analysis"
+      ],
+      "planned_skills": [
+        "requirements/requirements-analysis",
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skills": [
+        "requirements/requirements-analysis",
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skill_status": "executed",
+      "consumes": [],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 10,
+      "artifact_target": "analysis",
+      "outputs": [],
+      "execution_type": "agent",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [
+        "Analizar requisitos, reglas, alcance e impacto del encargo fullstack; identificar el stack y restricciones solo con evidencia del brief y contexto."
+      ],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834315405716000,
+        "error": null
+      }
+    },
+    {
+      "id": "diseno",
+      "title": "Diseño arquitectura y UI fullstack",
+      "artifacts": [
+        "diseno.md"
+      ],
+      "requires_code": false,
+      "code_scope": null,
+      "canonical_role": "design",
+      "core_runtime": false,
+      "agent": "agent-diseno-desarrollo",
+      "github_agent": "agent-diseno-desarrollo",
+      "depends_on": [
+        "analisis"
+      ],
+      "declared_skills": [
+        "architecture/component-design"
+      ],
+      "planned_skills": [
+        "architecture/component-design",
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skills": [
+        "architecture/component-design",
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 20,
+      "artifact_target": "design",
+      "outputs": [],
+      "execution_type": "agent",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [
+        "Diseñar componentes, datos, contratos e interfaz aplicables a arquitectura y UI fullstack; conservar convenciones del proyecto y decisiones del análisis."
+      ],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834315454299680,
+        "error": null
+      }
+    },
+    {
+      "id": "contrato-api",
+      "title": "Contrato API y validaciones",
+      "artifacts": [
+        "api-contract.md"
+      ],
+      "requires_code": false,
+      "code_scope": null,
+      "canonical_role": "design",
+      "core_runtime": false,
+      "agent": "agent-diseno-desarrollo",
+      "github_agent": "agent-diseno-desarrollo",
+      "depends_on": [
+        "diseno"
+      ],
+      "declared_skills": [
+        "architecture/openapi-best-practices",
+        "backend/api-design"
+      ],
+      "planned_skills": [
+        "architecture/openapi-best-practices",
+        "backend/api-design",
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skills": [
+        "architecture/openapi-best-practices",
+        "backend/api-design",
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 30,
+      "artifact_target": "design",
+      "outputs": [],
+      "execution_type": "agent",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [
+        "Diseñar el contrato API solicitado: incluir especificación OpenAPI para REST o schema SDL para GraphQL dentro del documento, con operaciones, tipos, errores, autenticación y validaciones. Trazarlo a requisitos y definir comprobaciones de consistencia; usar solo el protocolo en alcance."
+      ],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834315518923296,
+        "error": null
+      }
+    },
+    {
+      "id": "planificacion",
+      "title": "Planificación",
+      "artifacts": [
+        "plan.md"
+      ],
+      "requires_code": false,
+      "code_scope": null,
+      "canonical_role": "planning",
+      "core_runtime": false,
+      "agent": "agent-plan-desarrollo",
+      "github_agent": "agent-plan-desarrollo",
+      "depends_on": [
+        "contrato-api"
+      ],
+      "declared_skills": [],
+      "planned_skills": [
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skills": [
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md",
+        "contrato-api/api-contract.md"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 40,
+      "artifact_target": "planning",
+      "outputs": [],
+      "execution_type": "agent",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [
+        "Planificar cambios por archivo, dependencias, criterios de aceptación, comandos del stack real y riesgos; no afirmar que el plan ya se ejecutó."
+      ],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834315578368544,
+        "error": null
+      }
+    },
+    {
+      "id": "backend",
+      "title": "Construcción backend",
+      "artifacts": [],
+      "requires_code": true,
+      "code_scope": "backend",
+      "canonical_role": "build",
+      "core_runtime": false,
+      "agent": "agent-construccion-desarrollo",
+      "github_agent": "agent-construccion-desarrollo",
+      "depends_on": [
+        "planificacion"
+      ],
+      "declared_skills": [],
+      "planned_skills": [
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skills": [
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md",
+        "contrato-api/api-contract.md",
+        "planificacion/plan.md"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 50,
+      "artifact_target": "code",
+      "outputs": [],
+      "execution_type": "agent",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [
+        "Implementar backend y validaciones conforme al contrato API y al plan. Mantener los contratos compartidos."
+      ],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834315631522336,
+        "error": null
+      }
+    },
+    {
+      "id": "frontend",
+      "title": "Construcción frontend",
+      "artifacts": [],
+      "requires_code": true,
+      "code_scope": "frontend",
+      "canonical_role": "build",
+      "core_runtime": false,
+      "agent": "agent-construccion-desarrollo",
+      "github_agent": "agent-construccion-desarrollo",
+      "depends_on": [
+        "backend"
+      ],
+      "declared_skills": [],
+      "planned_skills": [
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skills": [
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md",
+        "contrato-api/api-contract.md",
+        "planificacion/plan.md",
+        "backend/**"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 60,
+      "artifact_target": "code",
+      "outputs": [],
+      "execution_type": "agent",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [
+        "Implementar UI, estados de carga/error y consumo de API conforme al contrato compartido."
+      ],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834315733842464,
+        "error": null
+      }
+    },
+    {
+      "id": "integracion",
+      "title": "Integración fullstack",
+      "artifacts": [],
+      "requires_code": true,
+      "code_scope": "project",
+      "canonical_role": "build",
+      "core_runtime": false,
+      "agent": "agent-construccion-desarrollo",
+      "github_agent": "agent-construccion-desarrollo",
+      "depends_on": [
+        "frontend"
+      ],
+      "declared_skills": [],
+      "planned_skills": [
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skills": [
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md",
+        "contrato-api/api-contract.md",
+        "planificacion/plan.md",
+        "backend/**",
+        "frontend/**"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 70,
+      "artifact_target": "code",
+      "outputs": [],
+      "execution_type": "agent",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [
+        "Integrar frontend y backend, alinear rutas, tipos, configuración y manejo de errores. Aportar los archivos de integración necesarios."
+      ],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834315831619104,
+        "error": null
+      }
+    },
+    {
+      "id": "compilacion",
+      "title": "Compilación",
+      "artifacts": [
+        "compilacion.md"
+      ],
+      "requires_code": false,
+      "code_scope": null,
+      "canonical_role": "compile-and-run",
+      "core_runtime": false,
+      "agent": "",
+      "github_agent": "",
+      "depends_on": [
+        "integracion"
+      ],
+      "declared_skills": [],
+      "planned_skills": [],
+      "skills": [],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md",
+        "contrato-api/api-contract.md",
+        "planificacion/plan.md",
+        "backend/**",
+        "frontend/**",
+        "integracion/**"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 80,
+      "artifact_target": "evidence",
+      "outputs": [],
+      "execution_type": "deterministic",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834315996981792,
+        "error": null
+      }
+    },
+    {
+      "id": "generacion-tests",
+      "title": "Generación de pruebas unitarias, de contrato, integración y E2E",
+      "artifacts": [],
+      "requires_code": true,
+      "code_scope": "tests",
+      "canonical_role": "test-generation",
+      "core_runtime": false,
+      "agent": "agent-tests-desarrollo",
+      "github_agent": "agent-tests-desarrollo",
+      "depends_on": [
+        "compilacion"
+      ],
+      "declared_skills": [
+        "testing/unit-test-generation"
+      ],
+      "planned_skills": [
+        "testing/unit-test-generation",
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skills": [
+        "testing/unit-test-generation",
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md",
+        "contrato-api/api-contract.md",
+        "planificacion/plan.md",
+        "backend/**",
+        "frontend/**",
+        "integracion/**",
+        "compilacion/compilacion.md"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 90,
+      "artifact_target": "tests",
+      "outputs": [],
+      "execution_type": "agent",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [
+        "Generar pruebas unitarias, de contrato, integración y E2E, escenarios de error y regresiones ligados a los criterios de aceptación. Incluir configuración y scripts para unitarias (test), integración (test:integration), UI (test:ui), E2E (test:e2e) o cobertura (test:coverage) solo cuando sean aplicables al stack y a esta ruta. Conservar o aportar los archivos del proyecto necesarios para ejecutarlas a partir de la evidencia disponible; declarar lo que falte."
+      ],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834316014427680,
+        "error": null
+      }
+    },
+    {
+      "id": "tests-unitarios",
+      "title": "Ejecución de pruebas unitarias",
+      "artifacts": [
+        "unit-tests.md"
+      ],
+      "requires_code": false,
+      "code_scope": null,
+      "canonical_role": "unit-test",
+      "core_runtime": false,
+      "agent": "",
+      "github_agent": "",
+      "depends_on": [
+        "generacion-tests"
+      ],
+      "declared_skills": [],
+      "planned_skills": [],
+      "skills": [],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md",
+        "contrato-api/api-contract.md",
+        "planificacion/plan.md",
+        "backend/**",
+        "frontend/**",
+        "integracion/**",
+        "compilacion/compilacion.md",
+        "generacion-tests/**"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 100,
+      "artifact_target": "evidence",
+      "outputs": [],
+      "execution_type": "deterministic",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834316120750624,
+        "error": null
+      }
+    },
+    {
+      "id": "tests-integracion",
+      "title": "Ejecución de pruebas de integración",
+      "artifacts": [
+        "integration-tests.md"
+      ],
+      "requires_code": false,
+      "code_scope": null,
+      "canonical_role": "integration-test",
+      "core_runtime": false,
+      "agent": "",
+      "github_agent": "",
+      "depends_on": [
+        "tests-unitarios"
+      ],
+      "declared_skills": [],
+      "planned_skills": [],
+      "skills": [],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md",
+        "contrato-api/api-contract.md",
+        "planificacion/plan.md",
+        "backend/**",
+        "frontend/**",
+        "integracion/**",
+        "compilacion/compilacion.md",
+        "generacion-tests/**",
+        "tests-unitarios/unit-tests.md"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 110,
+      "artifact_target": "evidence",
+      "outputs": [],
+      "execution_type": "deterministic",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834316139786784,
+        "error": null
+      }
+    },
+    {
+      "id": "tests-e2e",
+      "title": "Ejecución E2E",
+      "artifacts": [
+        "e2e.md"
+      ],
+      "requires_code": false,
+      "code_scope": null,
+      "canonical_role": "e2e-test",
+      "core_runtime": false,
+      "agent": "",
+      "github_agent": "",
+      "depends_on": [
+        "tests-integracion"
+      ],
+      "declared_skills": [],
+      "planned_skills": [],
+      "skills": [],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md",
+        "contrato-api/api-contract.md",
+        "planificacion/plan.md",
+        "backend/**",
+        "frontend/**",
+        "integracion/**",
+        "compilacion/compilacion.md",
+        "generacion-tests/**",
+        "tests-unitarios/unit-tests.md",
+        "tests-integracion/integration-tests.md"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 120,
+      "artifact_target": "evidence",
+      "outputs": [],
+      "execution_type": "deterministic",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834316158069280,
+        "error": null
+      }
+    },
+    {
+      "id": "seguridad",
+      "title": "Revisión de seguridad",
+      "artifacts": [
+        "security-report.md"
+      ],
+      "requires_code": false,
+      "code_scope": null,
+      "canonical_role": "security-review",
+      "core_runtime": false,
+      "agent": "agent-seguridad-desarrollo",
+      "github_agent": "agent-seguridad-desarrollo",
+      "depends_on": [
+        "tests-e2e"
+      ],
+      "declared_skills": [
+        "security/owasp-security",
+        "security/owasp-asvs",
+        "security/threat-modeling"
+      ],
+      "planned_skills": [
+        "security/owasp-security",
+        "security/owasp-asvs",
+        "security/threat-modeling",
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skills": [
+        "security/owasp-security",
+        "security/owasp-asvs",
+        "security/threat-modeling",
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md",
+        "contrato-api/api-contract.md",
+        "planificacion/plan.md",
+        "backend/**",
+        "frontend/**",
+        "integracion/**",
+        "compilacion/compilacion.md",
+        "generacion-tests/**",
+        "tests-unitarios/unit-tests.md",
+        "tests-integracion/integration-tests.md",
+        "tests-e2e/e2e.md"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 130,
+      "artifact_target": "security-review",
+      "outputs": [],
+      "execution_type": "agent",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [
+        "Revisar OWASP y ASVS según la superficie real, modelar amenazas y registrar hallazgos, evidencia, severidad, impacto, remediación y áreas no verificadas. Citar la versión de los criterios aportados; no inventar un escaneo ni una certificación."
+      ],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834316177633824,
+        "error": null
+      }
+    },
+    {
+      "id": "revision",
+      "title": "Code review",
+      "artifacts": [
+        "revision.md"
+      ],
+      "requires_code": false,
+      "code_scope": null,
+      "canonical_role": "code-review",
+      "core_runtime": false,
+      "agent": "agent-revision-desarrollo",
+      "github_agent": "agent-revision-desarrollo",
+      "depends_on": [
+        "seguridad"
+      ],
+      "declared_skills": [],
+      "planned_skills": [
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skills": [
+        "documentation/technical-documentation",
+        "accessibility/wcag-validation"
+      ],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md",
+        "contrato-api/api-contract.md",
+        "planificacion/plan.md",
+        "backend/**",
+        "frontend/**",
+        "integracion/**",
+        "compilacion/compilacion.md",
+        "generacion-tests/**",
+        "tests-unitarios/unit-tests.md",
+        "tests-integracion/integration-tests.md",
+        "tests-e2e/e2e.md",
+        "seguridad/security-report.md"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 140,
+      "artifact_target": "code-review",
+      "outputs": [],
+      "execution_type": "agent",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [
+        "Revisar el código y diff disponibles frente a los requisitos, contratos, regresiones y evidencia de pruebas. Cada hallazgo incluye severidad, ruta, impacto y corrección concreta."
+      ],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834316271469088,
+        "error": null
+      }
+    },
+    {
+      "id": "verificacion",
+      "title": "Verificación final",
+      "artifacts": [
+        "verificacion.md"
+      ],
+      "requires_code": false,
+      "code_scope": null,
+      "canonical_role": "verification",
+      "core_runtime": false,
+      "agent": "",
+      "github_agent": "",
+      "depends_on": [
+        "revision"
+      ],
+      "declared_skills": [],
+      "planned_skills": [],
+      "skills": [],
+      "skill_status": "executed",
+      "consumes": [
+        "analisis/analisis.md",
+        "diseno/diseno.md",
+        "contrato-api/api-contract.md",
+        "planificacion/plan.md",
+        "backend/**",
+        "frontend/**",
+        "integracion/**",
+        "compilacion/compilacion.md",
+        "generacion-tests/**",
+        "tests-unitarios/unit-tests.md",
+        "tests-integracion/integration-tests.md",
+        "tests-e2e/e2e.md",
+        "seguridad/security-report.md",
+        "revision/revision.md"
+      ],
+      "consumed_artifacts": [],
+      "tool_actions": [],
+      "order": 150,
+      "artifact_target": "evidence",
+      "outputs": [],
+      "execution_type": "deterministic",
+      "worker_lane": "",
+      "timeout_sec": null,
+      "parallel_group": null,
+      "gate": null,
+      "review_required": false,
+      "coverage_threshold": null,
+      "replicates_github_step": "",
+      "internal_steps": [],
+      "specialists": [],
+      "runtime": {
+        "status": "completed",
+        "blocked_by": [],
+        "waiting_for": [],
+        "approval_required_by": [],
+        "run_id": 1834316330993184,
+        "error": null
+      }
+    }
+  ],
+  "artifact_selection": {
+    "policy": "latest_completed_phase",
+    "status": "clean",
+    "conflicts": []
+  },
+  "missing_files": []
+}

@@ -1,0 +1,962 @@
+[
+  {
+    "phase": "_verification",
+    "name": "verification_report.json",
+    "kind": "evidence",
+    "sha256": "b99792ecbee754669c448b38df4a4b77c8b6ad2febbaf4beebaa580bba4311e3",
+    "archive_paths": [
+      "evidencia/_verification/verification_report.json"
+    ],
+    "selected_for_project": false,
+    "phase_status": null,
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "analisis",
+    "name": "analisis.md",
+    "kind": "document",
+    "sha256": "3a31e9e7f83da15526468f9105280e6148d79898d43abf293293aecd01f68ebc",
+    "archive_paths": [
+      "docs/02-analisis/analisis/analisis.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "backend",
+    "name": ".gitignore",
+    "kind": "code",
+    "sha256": "dc550aca6ad23dec7473576e1c2d90c5ebf2780e66e81e837a401aaf3a211062",
+    "archive_paths": [
+      "project/.gitignore"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "contrato-api/api-contract.md",
+    "kind": "document",
+    "sha256": "5b6e0e5a03eca11457816a1c79c0c4a0881d80262e7c6ee31e1d161ee82d1d70",
+    "archive_paths": [
+      "docs/05-construccion/backend/contrato-api/api-contract.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "backend",
+    "name": "e2e/feedback.spec.js",
+    "kind": "code",
+    "sha256": "3956657faf51abc1ae33b21ff0bf24a8a7a16f5e19d3493077236ea6c340b74a",
+    "archive_paths": [
+      "project/e2e/feedback.spec.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "e2e/global-setup.js",
+    "kind": "code",
+    "sha256": "c13beb90f1d7a1e068322380a37613afc86a372c1d48eae3b0443388b6409a93",
+    "archive_paths": [
+      "project/e2e/global-setup.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "package.json",
+    "kind": "code",
+    "sha256": "93fc6707310d1d0f26b6ac9b6b190b5c3b176017ff236bbe37046e842b997c8c",
+    "archive_paths": [
+      "project/package.json"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "playwright.config.js",
+    "kind": "code",
+    "sha256": "e4461767a772bc7d2879e2396fd27381b87b6145813f0e2d59a0992a8036d880",
+    "archive_paths": [
+      "project/playwright.config.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "public/app.js",
+    "kind": "code",
+    "sha256": "98878fd17f40f56482a7001c2442773fe6dee86ab4bafb8ae5e7e55785a56950",
+    "archive_paths": [
+      "project/public/app.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "public/index.html",
+    "kind": "code",
+    "sha256": "af970339367201bd85eb937bb15cb392c7c0a44a6c2aaace7d2dd767565f8b82",
+    "archive_paths": [
+      "project/public/index.html"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "public/styles.css",
+    "kind": "code",
+    "sha256": "a763205e3e4861b4a0bf7019de3a07fd4feff0288ae97200ba36a325d08fabf1",
+    "archive_paths": [
+      "project/public/styles.css"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "README.md",
+    "kind": "document",
+    "sha256": "7ab201819adb6bb0a06df424db111529bb74f411e7f648919cf6348a4104699e",
+    "archive_paths": [
+      "docs/05-construccion/backend/README.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "backend",
+    "name": "scripts/build.js",
+    "kind": "code",
+    "sha256": "295f10466dda5b45ca7f4a347b1a963585ab5de21f85e6ff442059900bb17f8f",
+    "archive_paths": [
+      "project/scripts/build.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "src/app.js",
+    "kind": "code",
+    "sha256": "c1c12efd4f24d931af24285a198817e48cd6fef287f5df4d4dd1f99c9ff35a6e",
+    "archive_paths": [
+      "project/src/app.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "src/domain/feedback.js",
+    "kind": "code",
+    "sha256": "54e9d409e8fb5e77610603e1f9f7a4d623653971f7d9cc3fffe0392d6b8fb516",
+    "archive_paths": [
+      "project/src/domain/feedback.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "src/repositories/file-feedback-repository.js",
+    "kind": "code",
+    "sha256": "d8eecb14c6997e7530ef31d00cc3ba0b55ce3875b08f2acb3d8d9c7250cdfdfc",
+    "archive_paths": [
+      "project/src/repositories/file-feedback-repository.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "src/server.js",
+    "kind": "code",
+    "sha256": "5cdaa339041aa3a775f06e58f615dd59a5f4200c3b65a0e43e86b2b789087c3d",
+    "archive_paths": [
+      "project/src/server.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "src/services/feedback-service.js",
+    "kind": "code",
+    "sha256": "6e53c45100d73ea5a7cfbf40e742e653ae489ce30dbb21aad8e4b643f0c5c4eb",
+    "archive_paths": [
+      "project/src/services/feedback-service.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "backend",
+    "name": "tests/feedback.test.js",
+    "kind": "code",
+    "sha256": "4d8bf0a9ea8a3c25a4876ffa2a3a32487d23d03e3a16568c1133cde5d93fc76b",
+    "archive_paths": [
+      "project/tests/feedback.test.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "compilacion",
+    "name": "compilacion.md",
+    "kind": "document",
+    "sha256": "2a02733a91a58d28279f85e2c6d1b3ecb7a875668cab7752f2c1fcd40ccf9da4",
+    "archive_paths": [
+      "docs/06-verificacion/compilacion/compilacion.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "compilacion",
+    "name": "verification_report.json",
+    "kind": "code",
+    "sha256": "916862e890bfb0b83a15f6b7d75c5488dcbdb22391ee710ba37193ae5669e909",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "contrato-api",
+    "name": "api-contract.md",
+    "kind": "document",
+    "sha256": "273e799c634450c1766317b320263e20c4d5ff8902f1dc20740d99e9b75ffc99",
+    "archive_paths": [
+      "docs/04-diseno/contrato-api/api-contract.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "diseno",
+    "name": "diseno.md",
+    "kind": "document",
+    "sha256": "26a4ce4a47f631fe8ea808e5e908f13da4a82cb4672ca389e4c384a87ddd5286",
+    "archive_paths": [
+      "docs/04-diseno/diseno/diseno.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/.gitignore",
+    "kind": "code",
+    "sha256": "dc550aca6ad23dec7473576e1c2d90c5ebf2780e66e81e837a401aaf3a211062",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/contrato-api/api-contract.md",
+    "kind": "document",
+    "sha256": "5b6e0e5a03eca11457816a1c79c0c4a0881d80262e7c6ee31e1d161ee82d1d70",
+    "archive_paths": [
+      "docs/05-construccion/frontend/backend/contrato-api/api-contract.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/e2e/feedback.spec.js",
+    "kind": "code",
+    "sha256": "3956657faf51abc1ae33b21ff0bf24a8a7a16f5e19d3493077236ea6c340b74a",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/e2e/global-setup.js",
+    "kind": "code",
+    "sha256": "c13beb90f1d7a1e068322380a37613afc86a372c1d48eae3b0443388b6409a93",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/package.json",
+    "kind": "code",
+    "sha256": "93fc6707310d1d0f26b6ac9b6b190b5c3b176017ff236bbe37046e842b997c8c",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/playwright.config.js",
+    "kind": "code",
+    "sha256": "e4461767a772bc7d2879e2396fd27381b87b6145813f0e2d59a0992a8036d880",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/public/app.js",
+    "kind": "code",
+    "sha256": "58b600b58a4ea2e90fe88d5a608cc75fe2c8e3c8212d6554a40bf00c0d47fdc3",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/public/feedback-client.js",
+    "kind": "code",
+    "sha256": "6462c1712de27204c604352dbef03954c2969d35684caa4cd29303a9cc35832d",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/public/index.html",
+    "kind": "code",
+    "sha256": "af970339367201bd85eb937bb15cb392c7c0a44a6c2aaace7d2dd767565f8b82",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/public/styles.css",
+    "kind": "code",
+    "sha256": "a763205e3e4861b4a0bf7019de3a07fd4feff0288ae97200ba36a325d08fabf1",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/README.md",
+    "kind": "document",
+    "sha256": "9b392435f55484163a26f39d74f97733c6ac7682c6a3ab4495d52596dc3ed5c4",
+    "archive_paths": [
+      "docs/05-construccion/frontend/backend/README.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/scripts/build.js",
+    "kind": "code",
+    "sha256": "3d6037a7f05a42c1b5958ee4e2e2d303862934a393b2859acc5e678190e6ff41",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/src/app.js",
+    "kind": "code",
+    "sha256": "983a49937f035bbfac957b2eb839650a639a1716568c967bd11bb952672ad8ba",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/src/domain/feedback.js",
+    "kind": "code",
+    "sha256": "54e9d409e8fb5e77610603e1f9f7a4d623653971f7d9cc3fffe0392d6b8fb516",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/src/repositories/file-feedback-repository.js",
+    "kind": "code",
+    "sha256": "d8eecb14c6997e7530ef31d00cc3ba0b55ce3875b08f2acb3d8d9c7250cdfdfc",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/src/server.js",
+    "kind": "code",
+    "sha256": "5cdaa339041aa3a775f06e58f615dd59a5f4200c3b65a0e43e86b2b789087c3d",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/src/services/feedback-service.js",
+    "kind": "code",
+    "sha256": "6e53c45100d73ea5a7cfbf40e742e653ae489ce30dbb21aad8e4b643f0c5c4eb",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/tests/feedback-client.test.js",
+    "kind": "code",
+    "sha256": "6c7342222e4bf0b4607de9cd3d67f1935652e9ede8de7842cb74d18eba5f0499",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "frontend",
+    "name": "backend/tests/feedback.test.js",
+    "kind": "code",
+    "sha256": "4d8bf0a9ea8a3c25a4876ffa2a3a32487d23d03e3a16568c1133cde5d93fc76b",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "generacion-tests",
+    "name": "backend/e2e/feedback.spec.js",
+    "kind": "code",
+    "sha256": "c49f38ebec003eaa6fb55f71a18c91824099ef84c87ae2670105a60809e284f7",
+    "archive_paths": [
+      "project/backend/e2e/feedback.spec.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "generacion-tests",
+    "name": "backend/package.json",
+    "kind": "code",
+    "sha256": "d4f4d0a8a00f6cd012acffdb0ac8ffabef78bf8da9708649957348bbd14d0fc0",
+    "archive_paths": [
+      "project/backend/package.json"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "generacion-tests",
+    "name": "backend/TESTING.md",
+    "kind": "document",
+    "sha256": "3371520d9244cc125dcf872df8a83897906fa24833ac3253594390bfad877b6e",
+    "archive_paths": [
+      "docs/06-verificacion/generacion-tests/backend/TESTING.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "generacion-tests",
+    "name": "backend/tests/feedback-client.test.js",
+    "kind": "code",
+    "sha256": "b6659e81d07ba1370f58e25a8c1de9ff8c107abfbc1e322331c913aa486d4354",
+    "archive_paths": [
+      "project/backend/tests/feedback-client.test.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "generacion-tests",
+    "name": "backend/tests/integration/feedback-api.contract.test.js",
+    "kind": "code",
+    "sha256": "f5b64ebf5383d59fcf98f00b1a63c36e478ff39aa04060a42bf3f92d23cb7969",
+    "archive_paths": [
+      "project/backend/tests/integration/feedback-api.contract.test.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "generacion-tests",
+    "name": "backend/tests/unit/feedback-domain.test.js",
+    "kind": "code",
+    "sha256": "37f7ecededbd4a8c2dc39261e3bcfdd7ee39a19ec1ae1df5c79657f35e96196a",
+    "archive_paths": [
+      "project/backend/tests/unit/feedback-domain.test.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "generacion-tests",
+    "name": "backend/tests/unit/feedback-service.test.js",
+    "kind": "code",
+    "sha256": "78180a34c974afd2df53b0c48c92bf4697d23399b05100e0533d555c1f211a5b",
+    "archive_paths": [
+      "project/backend/tests/unit/feedback-service.test.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "generacion-tests",
+    "name": "backend/tests/unit/file-feedback-repository.test.js",
+    "kind": "code",
+    "sha256": "9fc262da7ece0ab29de2d64ede55765eb8f44c6a0c3dc90bbadf7d6fbb471133",
+    "archive_paths": [
+      "project/backend/tests/unit/file-feedback-repository.test.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "generacion-tests",
+    "name": "backend/vitest.config.js",
+    "kind": "code",
+    "sha256": "f5bdf47e7e3383df05d0c20e7d3e3bc48323aeace1b9a17933ecc64638b73199",
+    "archive_paths": [
+      "project/backend/vitest.config.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "generacion-tests",
+    "name": "backend/vitest.integration.config.js",
+    "kind": "code",
+    "sha256": "9d18b4c97ef56879604187c3530b5e61bb5ef660122c3365533acf10557f806b",
+    "archive_paths": [
+      "project/backend/vitest.integration.config.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "generacion-tests",
+    "name": "backend/vitest.ui.config.js",
+    "kind": "code",
+    "sha256": "9a103cf46bc27b06577de62503fac7488a06e1f35ed8a12bf198e859f188f388",
+    "archive_paths": [
+      "project/backend/vitest.ui.config.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "generacion-tests",
+    "name": "backend/vitest.unit.config.js",
+    "kind": "code",
+    "sha256": "65f6bc295c8ce6c07b1365ba27c8166b9dd615d89fb88e84c1f89d111d6ee000",
+    "archive_paths": [
+      "project/backend/vitest.unit.config.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/.gitignore",
+    "kind": "code",
+    "sha256": "dc550aca6ad23dec7473576e1c2d90c5ebf2780e66e81e837a401aaf3a211062",
+    "archive_paths": [
+      "project/backend/.gitignore"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/contrato-api/api-contract.md",
+    "kind": "document",
+    "sha256": "5b6e0e5a03eca11457816a1c79c0c4a0881d80262e7c6ee31e1d161ee82d1d70",
+    "archive_paths": [
+      "docs/05-construccion/integracion/backend/contrato-api/api-contract.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/e2e/feedback.spec.js",
+    "kind": "code",
+    "sha256": "4484aec488e16831f43fdacae812acb6315072b1960a715f30822a92c93318e1",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/e2e/global-setup.js",
+    "kind": "code",
+    "sha256": "c13beb90f1d7a1e068322380a37613afc86a372c1d48eae3b0443388b6409a93",
+    "archive_paths": [
+      "project/backend/e2e/global-setup.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/package.json",
+    "kind": "code",
+    "sha256": "93fc6707310d1d0f26b6ac9b6b190b5c3b176017ff236bbe37046e842b997c8c",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/playwright.config.js",
+    "kind": "code",
+    "sha256": "e4461767a772bc7d2879e2396fd27381b87b6145813f0e2d59a0992a8036d880",
+    "archive_paths": [
+      "project/backend/playwright.config.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/public/app.js",
+    "kind": "code",
+    "sha256": "58b600b58a4ea2e90fe88d5a608cc75fe2c8e3c8212d6554a40bf00c0d47fdc3",
+    "archive_paths": [
+      "project/backend/public/app.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/public/feedback-client.js",
+    "kind": "code",
+    "sha256": "f41ebf671c31a71cfecf005151f1066ced654a959f4c71f088d7acd0d29470f4",
+    "archive_paths": [
+      "project/backend/public/feedback-client.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/public/index.html",
+    "kind": "code",
+    "sha256": "51879e5c708bf3faa6486816a4e637a47c6e937eb8aeaac2b8ea2bcb74d478cc",
+    "archive_paths": [
+      "project/backend/public/index.html"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/public/styles.css",
+    "kind": "code",
+    "sha256": "a763205e3e4861b4a0bf7019de3a07fd4feff0288ae97200ba36a325d08fabf1",
+    "archive_paths": [
+      "project/backend/public/styles.css"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/README.md",
+    "kind": "document",
+    "sha256": "e7fdefcf91e0b399ceba70aa91ecc2e620c8fbc5b657971faa7d6ba66b048747",
+    "archive_paths": [
+      "docs/05-construccion/integracion/backend/README.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/scripts/build.js",
+    "kind": "code",
+    "sha256": "3d6037a7f05a42c1b5958ee4e2e2d303862934a393b2859acc5e678190e6ff41",
+    "archive_paths": [
+      "project/backend/scripts/build.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/src/app.js",
+    "kind": "code",
+    "sha256": "2a93e735e5af1789b5e3f61f1fefcad95e7d5a2b75dd4bb6b27d78c8e3b8cbc6",
+    "archive_paths": [
+      "project/backend/src/app.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/src/domain/feedback.js",
+    "kind": "code",
+    "sha256": "54e9d409e8fb5e77610603e1f9f7a4d623653971f7d9cc3fffe0392d6b8fb516",
+    "archive_paths": [
+      "project/backend/src/domain/feedback.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/src/repositories/file-feedback-repository.js",
+    "kind": "code",
+    "sha256": "d8eecb14c6997e7530ef31d00cc3ba0b55ce3875b08f2acb3d8d9c7250cdfdfc",
+    "archive_paths": [
+      "project/backend/src/repositories/file-feedback-repository.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/src/server.js",
+    "kind": "code",
+    "sha256": "5cdaa339041aa3a775f06e58f615dd59a5f4200c3b65a0e43e86b2b789087c3d",
+    "archive_paths": [
+      "project/backend/src/server.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/src/services/feedback-service.js",
+    "kind": "code",
+    "sha256": "6e53c45100d73ea5a7cfbf40e742e653ae489ce30dbb21aad8e4b643f0c5c4eb",
+    "archive_paths": [
+      "project/backend/src/services/feedback-service.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/tests/feedback-client.test.js",
+    "kind": "code",
+    "sha256": "bf556a932ef769370e5e588c0bc6719680df69e3922692545d49ac22b7ab9c0b",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "integracion",
+    "name": "backend/tests/feedback.test.js",
+    "kind": "code",
+    "sha256": "41ebe07a08f6665bbf61ec8ab48b8726c34c3ec9e9d8c7b3424e485618b8b436",
+    "archive_paths": [
+      "project/backend/tests/feedback.test.js"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  },
+  {
+    "phase": "planificacion",
+    "name": "plan.md",
+    "kind": "document",
+    "sha256": "034e31df1b6c938f201dc61a86bf437f32f71343ea68beaa4aeb1dc2d53c417b",
+    "archive_paths": [
+      "docs/03-plan/planificacion/plan.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "revision",
+    "name": "revision.md",
+    "kind": "document",
+    "sha256": "4de2489599bb475f3d1ccd6a53f52e1878c596657f81a0b6ad22238786280c7b",
+    "archive_paths": [
+      "docs/06-verificacion/revision/revision.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "seguridad",
+    "name": "security-report.md",
+    "kind": "document",
+    "sha256": "87bb53c5802a6b087603656316c5c369cf4454145dc2aaec8fa0a37fc7c1f435",
+    "archive_paths": [
+      "docs/07-seguridad/seguridad/security-report.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "tests-e2e",
+    "name": "e2e.md",
+    "kind": "document",
+    "sha256": "a3434c642b8aad063ca4a0baf6d8f91effad4cd801223a48b5e6754faddef685",
+    "archive_paths": [
+      "docs/06-verificacion/tests-e2e/e2e.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "tests-e2e",
+    "name": "verification_report.json",
+    "kind": "code",
+    "sha256": "70db73d1da1cc4054059bb82b72a30898cc91f1269c3eef0e4399a06c29f9a61",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "tests-integracion",
+    "name": "integration-tests.md",
+    "kind": "document",
+    "sha256": "5e1c54dd45bce8e8d6958bb48e88616e7c73f9b47275f244a1505211ff4ec606",
+    "archive_paths": [
+      "docs/06-verificacion/tests-integracion/integration-tests.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "tests-integracion",
+    "name": "verification_report.json",
+    "kind": "code",
+    "sha256": "b479e1f43885d7f9a32f5a3796cfc3e09d7422a2a2f9dbfd32bf2e955545b7d9",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "tests-unitarios",
+    "name": "unit-tests.md",
+    "kind": "document",
+    "sha256": "3e37162b2100f2b9c525e93ebdc68bb0345d8bda09e9f6963a199ab2c3cbcd5f",
+    "archive_paths": [
+      "docs/06-verificacion/tests-unitarios/unit-tests.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "tests-unitarios",
+    "name": "verification_report.json",
+    "kind": "code",
+    "sha256": "a1cc8ad9adb8bd9cb6cf0bd681cf462fa0e5634af7fecef2ead53cee86e394f9",
+    "archive_paths": [],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "superseded_by_later_completed"
+  },
+  {
+    "phase": "verificacion",
+    "name": "verificacion.md",
+    "kind": "document",
+    "sha256": "9afe1a5518fd7ed7cd0fb578994e66abb047a2d4cf287c54a81a8067923241c0",
+    "archive_paths": [
+      "docs/06-verificacion/verificacion/verificacion.md"
+    ],
+    "selected_for_project": false,
+    "phase_status": "completed",
+    "selection_reason": "documentation_only"
+  },
+  {
+    "phase": "verificacion",
+    "name": "verification_report.json",
+    "kind": "code",
+    "sha256": "b99792ecbee754669c448b38df4a4b77c8b6ad2febbaf4beebaa580bba4311e3",
+    "archive_paths": [
+      "project/verification_report.json"
+    ],
+    "selected_for_project": true,
+    "phase_status": "completed",
+    "selection_reason": "selected_latest_completed"
+  }
+]
